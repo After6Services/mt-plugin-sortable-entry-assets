@@ -1,0 +1,20 @@
+name: Sortable Entry Assets
+id: sortableentryassets
+description: Allows to manually rearrange assets in the Entry Asset Manager
+author_name: Arseni Mouchinski for After6 Services
+author_email: arseni@mouchinski.com
+author_link: http://github.com/amouchinski
+doc_link: http://github.com/After6Services/mt-plugin-sortable-entry-assets
+version: 0.1
+schema_version: 0.1
+
+object_types:
+    objectasset:
+        order: integer default 1
+
+init_app: $SortableEntryAssets::SortableEntryAssets::Util::init_app
+
+callbacks:
+    cms_post_save.entry: $SortableEntryAssets::SortableEntryAssets::Callbacks::post_save_entry
+    MT::App::CMS::template_source.edit_entry: $SortableEntryAssets::SortableEntryAssets::Callbacks::source_edit_entry
+    MT::App::CMS::template_param.edit_entry: $SortableEntryAssets::SortableEntryAssets::Callbacks::param_edit_entry
