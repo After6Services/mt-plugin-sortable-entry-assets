@@ -1,6 +1,6 @@
 # Sortable Entry Assets
 
-*Sortable Entry Assets* is a Movable Type 4 & 5 plugin that allows to manually rearrange assets in the Entry Asset Manager via drag-and-drop intuitive method. Then the entry assets will be accessible using the standard *EntryAssets* template tag in the custom order as long as sort order is not changed, e.g., with the *sort_by* tag attribute. Other *EntryAssets* tag attributes will work as well:
+*Sortable Entry Assets* is a Movable Type 4 & 5 plugin that allows to manually rearrange assets in the Entry Asset Manager via drag-and-drop intuitive method. Then the entry assets will be accessible using the standard *EntryAssets* template tag in the custom order:
 
     <mt:EntryAssets lastn="1">
     ...
