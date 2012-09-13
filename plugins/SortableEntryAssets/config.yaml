@@ -1,9 +1,9 @@
-name: Sortable Entry Assets
+name: SortableEntryAssets
 id: sortableentryassets
-description: Allows to manually rearrange assets in the Entry Asset Manager
-author_name: Arseni Mouchinski for After6 Services
-author_email: arseni@mouchinski.com
-author_link: http://github.com/amouchinski
+description: Allows users to rearrange assets in the Entry Asset Manager and developers to display EntryAssets in a specific, user-specified order.
+author_name: After6 Services LLC
+author_email: customer.service@after6services.com
+author_link: http://www.after6services.com/
 doc_link: http://github.com/After6Services/mt-plugin-sortable-entry-assets
 version: 0.1
 schema_version: 0.1
